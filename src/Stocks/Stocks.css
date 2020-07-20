@@ -1,0 +1,73 @@
+.c-form{
+    width: 100%;
+    background: #7B68EE;
+    padding: 60px 0;
+}
+
+.c-form-control{
+    display: flex;
+    justify-content: center;
+}
+
+.c-input{
+    padding: 15px 30px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border-radius: 3px;
+    outline: none;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.c-button{
+    background: #00FA9A;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-sizing: border-box;
+    border-radius: 3px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+}
+
+
+.stock-list{    
+    width: 440px;
+    padding: 0;
+    margin: 15px auto;
+}
+.stock-list li{
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    background-color: #f7f7f7;
+    color: #333333;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    border-radius: 3px;   
+}
+.stock-list li .stock-list-label{
+    display: inline-block;
+    min-width: 75%;
+    font-weight: 500;
+}
+.stock-list li .stock-list-number{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #FF7F50;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.stock-no-result{
+    text-align: center;
+}
